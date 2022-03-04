@@ -9,7 +9,8 @@ app.get("/books", function (req, res) {
     res.send({
         book1: "Harry Potter",
         book2: "Time Management",
-        book3: "Malgudi Days"
+        book3: "Malgudi Days",
+        book4: "Wings of Fire"
     })
 })
 
