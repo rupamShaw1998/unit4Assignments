@@ -1,1 +1,2 @@
-console.log("rs")
+console.log("rs");
+console.log("india");
