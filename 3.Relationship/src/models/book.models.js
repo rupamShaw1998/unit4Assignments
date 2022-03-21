@@ -6,7 +6,7 @@ const bookSchema = new mongoose.Schema({
         sectionId: {
             type:mongoose.Schema.Types.ObjectId,
             ref: "section",
-            required: true
+            required: false
         }
     },
     {
