@@ -9,14 +9,14 @@ app.get("/books",singleBook,(req,res)=>
 
 app.get("/book/:name",singleBook,(req,res)=>
 {
-    return res.send({bookName:req.nam})
+    return res.send({bookName:req.name})
 })
 
 function singleBook(req,res,next)
 {
     console.log("Fetching all books")
-    const{nam}=req.params;
-    req.nam=nam
+    const{name}=req.params;
+    req.name=name
     next();
 }
 app.listen(5000,()=>{
