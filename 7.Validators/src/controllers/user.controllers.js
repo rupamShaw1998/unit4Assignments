@@ -57,7 +57,7 @@ router.post(
         .isEmpty()
         .withMessage("Gender cannot be empty")
         .custom((val) => {
-            if(val!="Male" || val!="Female" || val!="Others")
+            if(val!="Male" && val!="Female" && val!="Others")
                 throw new Error("Invalid Gender!");
             return true;
         }),
