@@ -1,0 +1,3 @@
+GOOGLE_CLIENT_ID=222059701336-cir9o3csnrblej7lfb42c8j88l9f9e6i.apps.googleusercontent.com
+GOOGLE_CLIENT_SECRET=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
+SECRET_KEY=rupam
